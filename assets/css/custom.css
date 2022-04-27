@@ -1,0 +1,28 @@
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 130px;
+}
+
+.left-menu ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.left-menu ul li {
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.left-menu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.main-content {
+    position: relative;
+    left: 160px;
+    margin-top: 20px;
+}

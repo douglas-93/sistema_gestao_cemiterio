@@ -1,0 +1,26 @@
+{
+  "name": "sistema_gestao_cemiterio",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão de Cemitérios",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "CRUD",
+    "EJS"
+  ],
+  "author": "Douglas Andrade de Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
